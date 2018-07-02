@@ -1,0 +1,227 @@
+@media(max-width: 1200px){
+	#header .language_bock{
+		max-width: 122px;
+	}
+	#header .slogan{
+		width: 230px;
+	}
+	#header .callback_button{
+		padding: 16px 30px 17px 30px;
+	}
+}
+@media(max-width: 1080px){
+	#about_block .item .girl_image{
+		display: none;
+	}
+	#about_block .item .girl_image_right{
+		display: none;
+	}
+	#about_block .container_wide{
+		max-width: 1170px; 	
+		padding: 0 30px;
+	}
+	#header .slogan{
+		display: none;
+	}
+}
+
+@media(max-width: 991px){		
+	#categories_block{
+		background: white;
+	}
+	#categories_block .items_block .item .item_text{
+		left: 40px !important;
+	}
+	#form_block{	
+		padding-top: 40px;
+		padding-bottom: 20px;		
+		background: #ce675a;
+	}
+	#form_block .block_header{
+		padding-bottom: 30px;
+	}
+	#form_block  .form_container .item{
+		width: 48%;
+		padding-bottom: 20px;
+	}
+	#header .text_pane .catalog_link{
+		padding: 21px 25px;
+	}
+
+}
+@media(max-width: 767px){	
+	.container{	
+		padding: 0 15px 0 15px;
+	}	
+	#header{
+		background: none;
+		min-height: auto;
+	}
+	#header .logo img{
+		width: 80px;
+	}
+	#header .language_bock{
+		padding: 25px 0 0 20px;
+		width: auto;
+	}
+	#header .language_menu{
+		width: auto;
+	}
+	#header .language_menu li{
+		padding: 0 5px;
+	}
+	#header .phone{
+		padding: 30px 0 0 30px;		
+	}
+	#header .phone a{
+		font-size: 14px;
+	}
+	#about_block .container_wide{		
+		padding: 0 15px;
+	}
+	#header .callback_button{
+		margin-top: 20px;
+		margin-right: 50px;
+		padding: 10px;
+		font-size: 10px;
+	}
+	#header .menu_trigger{
+		display: block;
+	}
+	#header .menu{		
+		display: none;
+		position: absolute;
+		background: white;
+		width: 100%;
+		padding:0;
+		margin:0;
+		left:0;
+		padding: 70px 20px 30px 0;
+		box-sizing: border-box;
+	}
+	#header .text_pane .more_link{
+		padding: 10px;
+		font-size: 13px;
+	}
+	#header .text_pane .catalog_link{
+		padding: 10px;
+		font-size: 13px;
+	}
+	#header .language_menu li a{	
+		width: 30px;
+		height: 30px;	
+		line-height: 30px;
+		font-size: 11px;
+	}
+	#header .text_pane .text_pane_header{
+		font-size: 24px;
+	}
+	#header .text_pane .text_pane_subheader{	
+		font-size: 18px;
+		padding: 20px 0 20px 0;
+	}
+	#header .text_pane ul li{
+		font-size: 17px;
+		padding-bottom: 0px;
+	}
+	#about_block .block_header{
+		padding-bottom: 30px;
+		font-size: 22px;
+	}
+	#about_block .item{
+		display: block;
+		padding-bottom: 20px;
+	}
+	#about_block .item .text_image{
+		display: none;		
+	}
+	#about_block .item .item_image{
+		width: 100%;
+	}
+	#about_block .item .item_image_left{
+		width: 100%;
+	}
+	#about_block .item .item_image img{
+		width: 100%;
+	}
+	#about_block .item .item_image_left img{
+		width: 100%;
+	}
+	#about_block .item .item_description{
+		display: block;
+		clear: both;
+		position: relative;
+		width: auto;
+		height: auto;
+		line-height: auto;
+		box-sizing: border-box;
+		top:  0;		
+		background: none;
+		border:0;
+		padding:0;
+	}
+	#about_block .item .item_description:before{
+		display: none;
+	}
+	#about_block .item .item_description .inner_container{
+		display: block;
+	}
+	#categories_block .block_header{
+		font-size: 20px;
+		padding-bottom: 30px;
+	}
+	#about_block .item .item_description .header{
+		font-size: 20px;
+		padding-bottom: 10px;
+		padding-top: 20px;
+	}
+	#about_block .item .item_description p{
+		line-height: normal; 
+		font-size: 17px; 		
+	}
+	
+	#categories_block .item .item_name{
+		font-size: 18px;
+	}
+	#categories_block .item .item_text .colors_block{
+		padding: 8px 0 8px 0;
+	}
+	#categories_block .item .item_text .price_link{
+		font-size: 8px;
+		padding: 15px 15px;
+	}
+	#categories_block .items_block .item .item_text{
+		bottom: 25% !important;
+		left: 30px !important;
+	}
+}
+@media(max-width: 600px){
+	
+	#form_block .block_header{
+		font-size: 20px;
+	}
+	#form_block  .form_container .item{
+		width: 100%;
+	}
+	#categories_block .items_block .item{
+		width: 100%;
+		padding-left:0;
+		padding-bottom: 15px;
+	}
+	#header .phone{
+		clear: both;
+		width: 100%;
+		padding:10px 0 10px 0;
+		text-align: center;
+	}
+	#header .language_bock{
+		float: right;
+		padding-right: 50px;
+	}
+	#header .callback_button{
+		clear: both;
+		float: none;
+		margin:  0 auto;
+		width: 140px;		
+	}
+}
